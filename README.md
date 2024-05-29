@@ -123,7 +123,7 @@ function giveCupcakeTo(address userAddress) public returns (bool) {
 ```
 
 Función para obtener el número de cupcakes de cada usuario
-```
+```solidity
  // Getter function for the cupcake balance of a user
     function getCupcakeBalanceFor(address userAddress) public view returns (uint) {
         return _cupcakeBalances[userAddress];
